@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Footer() {
+function AboutUs() {
   return (
     <div>
-      Footer
+      About Us
     </div>
   )
 }
 
-export default Footer
+export default AboutUs
