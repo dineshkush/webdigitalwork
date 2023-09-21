@@ -4,7 +4,7 @@
 	font-weight: 700;
 }
 .logo h1 span {
-    color: #0c5adb;
+    color: #4260ff;
 }
 header .navbar {
 	padding: 0px;
@@ -22,10 +22,10 @@ header .navbar ul li a {
 	transition: all .3s ease-out 0s;
 }
 header .navbar ul li .nav-link.active {
-	color: #0c5adb !important;
+	color: #4260ff !important;
 }
 header .navbar ul li > a:hover {
-	color: #0c5adb;
+	color: #4260ff;
 }
 header .navbar .dropdown-toggle::after {
 	display: inline-block;

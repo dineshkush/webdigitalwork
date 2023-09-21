@@ -16,9 +16,10 @@ function Home() {
                 <div className="site-heading text-center">
                   <h4 className="sub-title">Welcome To</h4>
                   <h2 className="main-title">
-                    Web. Digital. Work.
+                    Web. Digital. Work. <br/> Company
                   </h2>
-                  <div className="title_devider"></div>
+                  <p>Our work ethos centers on creativity, merging design expertise with impactful <br/>results to deliver excellence in every project we undertake.</p>
+                  {/* <div className="title_devider"></div> */}
                 </div>
 
                 {/* <div className="sub-title">
