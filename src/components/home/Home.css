@@ -1,0 +1,49 @@
+.home_banner {
+	padding-top: 222px;
+	padding-bottom: 235px;
+	position: relative;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sub-title {
+	text-transform: uppercase;
+	color: #0c5adb;
+	font-weight: 500;
+	background: linear-gradient(30deg);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+.main-title {
+	font-size: 100px;
+	font-weight: 700;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	line-height: 1;
+	background-image: linear-gradient(291.09deg,#ff4f99 27.31%,#7f37fe 73.17%);
+	animation: sliderTitle3 3s ease-in-out 1s infinite alternate forwards;
+	background-size: 150% 150%;
+}
+.title_devider {
+	display: inline-block;
+	width: 50px;
+	height: 2px;
+	background: #0c5adb;
+	position: relative;
+	z-index: 1;
+	left: 10px;
+}
+.title_devider::before {
+	position: absolute;
+	left: -15px;
+	top: 0;
+	content: "";
+	height: 2px;
+	width: 10px;
+	background: #0c5adb;
+}
